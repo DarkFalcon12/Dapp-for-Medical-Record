@@ -56,17 +56,8 @@ Ensure you have the following installed:
    ```sh
    truffle migrate --reset
    ```
-
-### 4. Interact with the Contract
-   You can use Truffle console to interact with the smart contract:
-   ```sh
-   truffle console
-   ```
-   ```js
-   const instance = await PatientRecords.deployed();
-   await instance.addPatient("John Doe", 30, "Flu");
-   ```
-
+   After running the above command, the should be a folder named `build` that would contain the .json files of the equivalent contracts that we made using .sol
+   
 ## Usage
 ### Running the Script to Add Patients
 ```sh
