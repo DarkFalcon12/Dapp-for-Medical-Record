@@ -96,7 +96,7 @@ ipfs add file.txt
 ```sh
 ipfs cat <IPFS_HASH>
 ```
-After you have done everything, add the metamask extension in your browser and connect it with the ganache account to generate token. After you have integrated ganache with metamask, run the interact.js
+After you have done everything, add the metamask extension in your browser and connect it with the ganache account to generate token. After you have integrated ganache with metamask, create a frontend for your project and run it. The sample frontend is given as app.js and should be placed inside the `client/src/`
 
 Next if you want to add the patient data, it will initiate a transaction through which u can add the data onto the blockchain.
 
